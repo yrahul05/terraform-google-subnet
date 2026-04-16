@@ -6,15 +6,24 @@
 - [Introduction](#introduction)
 - [Usage](#usage)
 - [Examples](#examples)
-- [Author](#author)
-- [License](#license)
 - [Inputs](#inputs)
 - [Outputs](#outputs)
 
 
 ## Introduction
 
-This project deploys a Google Cloud infrastructure using Terraform to create Subnet .
+> A clean and opinionated Terraform module by **[Rahul Yadav](https://github.com/yrahul05)**  
+> To use this module, include it in your Terraform configuration file and provide the required input variables. Below is an example of how to use the module:
+
+👤 ABOUT ME
+Rahul Yadav  
+Certified Cloud & DevOps Engineer
+
+## 🔗 Links
+### Personal Profiles
+> **GitHub:** [https://github.com/yrahul05](https://github.com/yrahul05)  
+> **LinkedIn:** [https://www.linkedin.com/in/rahulyadavdevops/](https://www.linkedin.com/in/rahulyadavdevops/)  
+> **Upwork:** [https://www.upwork.com/freelancers/~0183ad8a41e8284283](https://www.upwork.com/freelancers/~0183ad8a41e8284283)
 
 
 ## Usage
@@ -58,11 +67,6 @@ Make sure to configure the variables according to your requirements.
 ## Examples
 For detailed examples on how to use this module, please refer to the [Examples](https://github.com/yrahul05/terraform-google-subnet/tree/master/example) directory within this repository.
 
-## Author
-Your Name Replace **MIT** and **Rahul** with the appropriate license and your information. Feel free to expand this README with additional details or usage instructions as needed for your specific use case.
-
-## License
-This project is licensed under the **MIT** License - see the [LICENSE](https://github.com/yrahul05/terraform-google-subnet/blob/master/LICENSE) file for details.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
@@ -173,4 +177,8 @@ This project is licensed under the **MIT** License - see the [LICENSE](https://g
 | <a name="output_subnet_name"></a> [subnet\_name](#output\_subnet\_name) | The name of the GCP subnetwork. |
 | <a name="output_subnet_self_link_private"></a> [subnet\_self\_link\_private](#output\_subnet\_self\_link\_private) | The self-link of the GCP private subnetwork. |
 | <a name="output_subnet_self_link_public"></a> [subnet\_self\_link\_public](#output\_subnet\_self\_link\_public) | The self-link of the GCP public subnetwork. |
+
+## 💙 Maintained by Rahul Yadav
+Offering Cloud & DevOps, Web & App, and AI/ML solutions
+
 <!-- END_TF_DOCS -->
